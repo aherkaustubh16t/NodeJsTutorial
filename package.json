@@ -12,13 +12,15 @@
   },
   "keywords": [
     "Tutrial",
-    "Node",
-    "js"
+    "Node Js"
   ],
   "author": "Kaustubh Aher",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/aherkaustubh16t/NodeJsTutorial/issues"
   },
-  "homepage": "https://github.com/aherkaustubh16t/NodeJsTutorial#readme"
+  "homepage": "https://github.com/aherkaustubh16t/NodeJsTutorial#readme",
+  "dependencies": {
+    "colors": "^1.4.0"
+  }
 }
