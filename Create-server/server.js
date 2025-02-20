@@ -9,5 +9,11 @@ const http = require('http');
 
 http.createServer((req, res) => {
   res.write("<h1>Hieee Server started....</h1>");
-  res.end();
+  console.log("New Request Received");
+
+  res.end("Server Ended....");
+  
+  // console.log(req);
+
+  // console.log(res);
 }).listen(4500);
