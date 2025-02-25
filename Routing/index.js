@@ -13,15 +13,19 @@ http.createServer((req, res) => {
   console.log("New Request Received");
 
   if (path === "/") {
+    res.writeHead(200);
     res.end("<h1>You are in Home Page</h1>");
   }
   else if (path === "/about") {
+    res.writeHead(200);
     res.end("<h1>You are in About Page</h1>");
   }
   else if (path === "/contact") {
+    res.writeHead(200);
     res.end("<h1>You are in Contact Page</h1>");
   }
   else {
+    res.writeHead(404);
     res.end("<h1>Error 404:  Page Not Found</h1>");
   }
 
