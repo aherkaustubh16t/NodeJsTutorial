@@ -1,1 +1,2 @@
+cls
 This file is created using writeFileSync method only not all file system module is imported 
